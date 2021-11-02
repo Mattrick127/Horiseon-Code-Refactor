@@ -5,3 +5,5 @@
 # Description:
 
 # Horiseon-Code-Refactor
+
+# Using the knowledge provided, I rewrote an html and css file for code consolidation and semantic html application practice.
