@@ -4,21 +4,25 @@
     margin: 0;
 }
 
+/*  Added header element.  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+
 body {
     background-color: #ffffff;
 }
+
 h1 {
     display: inline-block;
     font-size: 48px;
     color: #ffffff;
 }
 
+/*   Makes sure "seo" in Horiseon is a different color.   */
 h1 .seo {
     color: #d9dcd6;
 }
@@ -33,6 +37,10 @@ h3 {
     margin-bottom: 12px;
     text-align: center;
 }
+
+/*
+Added figure semantic to control main picture.
+*/
 figure {
     height: 800px;
     margin-right: 20%;
@@ -41,12 +49,17 @@ figure {
     background-size: cover;
     background-position: center;
 }
+
+/*
+This img element controls the rest of the pictures.
+*/
 img {
     display: block;
     margin: 10px auto;
     max-width: 300px;
     max-height: 300px;
 }
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -62,6 +75,7 @@ p {
     font-size: 24px;
 }
 
+/*  Added aside element. This was used so I could display the page a bit different. */
 aside {
     padding: 20px;
     clear: both;
@@ -72,17 +86,19 @@ aside {
     background-color: #2589bd;
 }
 
+/*  Added section element. This was used to display content under the aside semantic. */
 section{
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Added main element. */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*  Added article elements to be used within the main semantic element */
 article {
     margin-bottom: 20px;
     margin-left: 20px;
@@ -92,6 +108,8 @@ article {
     background-color: #0072bb;
     color: #ffffff;
 }
+
+/*  Added footer semantic.  */
 footer {
     padding: 30px;
     clear: both;
